@@ -9,7 +9,7 @@ using namespace std;
 Node::Node(Student* myStudent) {
     student = myStudent;
     next = nullptr;
-    cout << "creating node" << endl;
+    
 }
 
 Node::~Node() {
